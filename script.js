@@ -5,6 +5,8 @@ let result = document.querySelector(".result");
 
 answerbutton.addEventListener("click", function(){
     result.style.display="block";
+    age = document.querySelector(".age").value;
+    emotion = document.querySelector(".emotion").value;
 
     if(age <= 17 && emotion === "scared"){
         result.innerHTML="You would be Will! Will is a young kid who is scared of being attacked again."
