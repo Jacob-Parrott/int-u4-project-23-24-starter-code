@@ -35,6 +35,7 @@ body {
 
 /* Result section styling */
 .result {
+    display: none;
     background-color: #e2e2e2;
     text-align: center;
     padding: 20px;
